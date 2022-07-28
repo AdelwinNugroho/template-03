@@ -1,0 +1,238 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  position: relative;	
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: normal;
+  float: left;
+  font-family: italic bold 20px play;
+  color: #355764;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 100px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 1;
+  border-bottom: 1px solid #355764;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a {
+  color: #355764;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi { 
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans-mc';
+  color: #355764;
+}
+
+h2#adel {
+  text-align: center;
+  font-family: 'comic sans-mc';
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #355764;
+  width: 100%;
+  line-height: 50px;
+}
+
+#adelwingans000 {
+  font-size: 20px;
+  color: #355764;
+  text-align: center;
+}
+
+h2#adelwin {
+  font-family: 'comic sans-mc';
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 80px;
+  color: #355764;
+  width: 100%;
+  line-height: 100px;
+}
+
+#image {
+  margin-top: 80px;
+  margin-right: 80px;
+  display: flex;
+}
+
+section#pengalaman {
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.adelwingans {
+  margin-top: 300px;
+}
+
+h3  {  
+  font-size: 30px;
+  font-family: 'comic sans-mc';
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #355764;
+  width: 100%; 
+}
+
+#adelwingans0000 {
+  font-size: 18px;
+  color: #355764;
+}
+
+section#adelwin-cisco {
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+section#program {
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+h2#adelganteng {
+  font-family: 'comic sans-mc';
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 80px;
+  color: #355764;
+  width: 100%;
+  line-height: 100px;
+}
+
+.programming03 {
+  margin-top: 110px;
+}
+
+h2#adelganteng {
+  text-align: center;
+  font-family: 'comic sans-mc';
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #355764;
+  width: 100%;
+  line-height: 50px;
+}
+
+
+#adelwingans00000 {
+  font-size: 18px;
+  color: #355764;
+}
+
+/*Bagian Hobi*/
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.hobiku {
+  font-family: 'comic sans-mc';
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 80px;
+  color: #355764;
+  width: 100%;
+  line-height: 100px;
+}
+
+section#hobi {
+  float: left;
+  margin-right: 30px;
+  
+}
+
+.tutorial-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kotak-list {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kotak-list img {
+  width: 100%;
+  height: 80%;
+  display: inline-flex;
+}
+
+.kotak-list p {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #355764;
+}
+
+footer {
+  background-color: tomato;
+  text-align: center;
+  color: white;
+  font-family: 'comic sans ms';
+  height: 20px;
+  margin-top: 800px;
+  width: 100%;
+}
